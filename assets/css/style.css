@@ -68,6 +68,23 @@ figure {
   color: #1c2a48;
 }
 
+#rcorners3 {
+  border-radius: 0px 50px 30px 5px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners1 {
+  border-radius: 50px 0px 50px 0px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+.site-footer {
+  background: #1c2a48;
+}
 
 
 
