@@ -69,23 +69,77 @@ figure {
 }
 
 #rcorners3 {
-  border-radius: 0px 50px 30px 5px;
+  border-radius: 0px 20px 20px 20px;
   padding: 20px;
   width: 200px;
   height: 150px;
 }
 
 #rcorners1 {
-  border-radius: 50px 0px 50px 0px;
+  border-radius: 20px 0px 0px 0px;
   padding: 20px;
   width: 200px;
   height: 150px;
 }
 
-.site-footer {
-  background: #1c2a48;
+#rcorners2{
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  width: 400px;
+  height: 150px;
 }
 
+#allbooths{
+  border-radius: 30px;
+}
+
+.site-footer {
+  background: #262A41;
+}
+
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+
+#afterCarousel{
+  border-radius: 20px 20px 20px 20px;
+  padding: 20px;
+  
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+#hr {
+    width: 95%;
+}
+
+.right.carousel-control, 
+.left.carousel-control 
+{
+     visibility:hidden;
+}
+
+.mobileHide { display: inline;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 520px){  .mobileHide { display: none;}}
+
+.mobileShow { display: none;}
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 520px){ .mobileShow { display: inline;}}
 
 
 Extra small (xs) devices (portrait phones, less than 576px)
