@@ -77,22 +77,24 @@ figure {
 
 #rcorners1 {
   border-radius: 20px 0px 0px 0px;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+ 
 }
 
 #rcorners2{
   border-radius: 20px 20px 0px 0px;
-  padding: 20px;
-  width: 400px;
-  height: 150px;
+ 
+ 
 }
-
+#boxes{
+  border-radius: 10px 10px 0px 0px
+}
 #allbooths{
   border-radius: 30px;
 }
+#searchbar{
+  border-radius: 20px;
 
+}
 .site-footer {
   background: #262A41;
 }
@@ -129,16 +131,71 @@ figure {
      visibility:hidden;
 }
 
+.searchIcon {
+  padding: 0.5rem;
+}
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+.searchContainer {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+  border-left: none;
+  border-radius: 0px 15px 15px 0px;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background:#f1f1f1;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-right: none;
+  cursor: pointer;
+  border-radius: 15px 0px 0px 15px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .mobileHide { display: inline;}
 /* Smartphone Portrait and Landscape */
 @media only screen
-and (min-device-width : 320px)
+and (min-device-width : 360px)
 and (max-device-width : 520px){  .mobileHide { display: none;}}
 
 .mobileShow { display: none;}
 /* Smartphone Portrait and Landscape */
 @media only screen
-and (min-device-width : 320px)
+and (min-device-width : 360px)
 and (max-device-width : 520px){ .mobileShow { display: inline;}}
 
 
